@@ -1,4 +1,4 @@
-from aid.solver import Solver
+from mlpm.solver import Solver
 
 class SampleSolver(Solver):
     def __init__(self, toml_file=None):
