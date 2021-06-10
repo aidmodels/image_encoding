@@ -1,7 +1,7 @@
 [package]
-name="{{packageName}}"
-vendor="{{vendorName}}"
+name="image_encoding"
+vendor="aidmodels"
 
 [[solvers]] 
-name="sampleSolver"
-class="{{packageName}}/solver/SampleSolver"
+name="encodingSolver"
+class="image_encoding/solver/EncodingSolver"
